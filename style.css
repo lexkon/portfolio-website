@@ -1,0 +1,43 @@
+:root {
+    --darkblue: #54838D;
+    --lightblue: #B1CACE;
+    --white: #F7F7F7;
+    --red: #BB5C4F;
+    font-size: 16px;
+}
+
+a {
+    color: var(--darkblue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--lightblue);
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: var(--white);
+    width: 100%;   
+    padding: 1%;
+}
+
+header img {
+    width: 10%;
+
+}
+
+main {
+    background-color: var(--darkblue);
+    height: 500px;
+}
+
+footer {
+    background-color: var(--red);
+    width: 100%;
+    height: 100px;
+    padding: 1%;
+}
