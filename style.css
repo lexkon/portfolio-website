@@ -1,3 +1,5 @@
+/* Global & generics */
+
 :root {
     --darkblue: #54838D;
     --lightblue: #B1CACE;
@@ -20,31 +22,12 @@ a:hover {
     color: var(--lightblue);
 }
 
-header {
-    background-color: var(--bluewhite);
-    padding: 1%;
-}
-
-header img {
-    width: 10%;
-    
-    /* Circle mask */
-    /* border-radius: 100%;
-    overflow: hidden;
-    margin:0 auto; */
+h2 {
+    font-size: 2rem;
 }
 
 ul {
     list-style-type: none;
-}
-
-nav {
-    display: inline;
-    margin: 15px;
-}
-
-nav ul a {
-    font-size: 1.25rem;
 }
 
 li {
@@ -52,13 +35,47 @@ li {
     margin: 15px;
 }
 
-main {
-    height: 500px;
+/* Header & Nav */
+
+header {
+    background-color: var(--bluewhite);
+    padding: 1%;
 }
 
-h2 {
-    font-size: 2rem;
+nav {
+    display: flex;
+    align-items: center;
 }
+
+nav img {
+    width: 10%;
+    align-items: center;
+}
+
+nav a {
+    font-size: 1.25rem;
+}
+
+/* Main */
+
+main {
+    margin-bottom: 150px;
+}
+
+#about {
+    display: flex
+}
+
+#about img {
+    width: 30%;
+    align-items: end;
+}
+
+#about-text {
+    width: 60%;
+}
+
+/* Footer */
 
 footer {
     height: 100px;
