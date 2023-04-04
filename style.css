@@ -94,9 +94,14 @@ main {
     
 }
 
+.project-info {
+    display: none;
+}
+
 /* Footer */
 
 footer {
+    display: flex;
     margin-top: 5%;
     background-color: #F7F7F7;
 }
@@ -104,7 +109,7 @@ footer {
 footer ul {
     padding: 5%;
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1000px) {
