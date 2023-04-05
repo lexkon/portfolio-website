@@ -8,4 +8,4 @@ A simple, responsive portfolio website
 * Use Git version control ✔️
 * Use the command line and file navigation ✔️
 * Develop locally on your computer ✔️
-* Deploy your site to the web using GitHub Pages
+* Deploy your site to the web using GitHub Pages ✔️
